@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Data, models and generated outputs are not part of the repository (see README)
+project_root/
+models/
+datasets/
+results/
+runs/
+yolo_dataset/
+output/
+outputs/
+*.pth
+*.pt
+*.pkl
+*.npy
+*.npz
+*.h5
+*.onnx
+*.xlsx
+*.csv
+*.log
+*.docx
+*.pptx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

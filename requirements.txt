@@ -1,0 +1,28 @@
+# Tested with Python 3.9 on Windows, torch 2.7.1 (CUDA 11.8), torchvision 0.22.1,
+# opencv-python 4.10, numpy 2.0.2 and ultralytics 8.4.
+# Install PyTorch first from https://pytorch.org for your CUDA version, then: pip install -r requirements.txt
+
+# --- dataset, problem 1, evaluation ---
+numpy
+opencv-python
+matplotlib
+scipy
+torch
+torchvision
+ultralytics
+pycocotools
+openpyxl
+Pillow
+PyYAML
+scikit-image
+joblib
+tqdm
+roboflow
+pywin32; sys_platform == "win32"     # only dataset/make_fig2.py (exports a PowerPoint slide)
+
+# --- orientation classifier and problem 2, method B (heatmaps, active learning, reachability) ---
+pandas
+scikit-learn
+lightgbm
+xgboost
+pybullet
